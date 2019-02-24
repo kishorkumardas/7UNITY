@@ -1,0 +1,71 @@
+@media(min-width:768px) and (max-width:991px){
+    .slider-inner h2 {
+        font-size: 40px;
+    }
+    .slider-inner p {
+        margin-bottom: 35px;
+    }
+    .features-area{
+      margin: 0;
+      box-shadow: none;
+      
+    }
+    .single-features{
+        border-bottom: 1px groove #ddd;
+    }
+    .theme-bg .col-lg-4:last-child .single-features{
+        border-bottom: 0;
+    }
+    .about-text p{
+        margin-bottom: 30px;    
+}
+.about-img > img {
+    width: 100%;
+    box-shadow: 10px 20px 40px #000;
+}
+.about-text > a {
+	margin-bottom: 35px;
+}
+.subscribe-form input {
+	width: 24%;
+}
+.team-area .col-md-6 {
+	margin-bottom: 37px;
+}
+.team-area {
+	padding-bottom: 80px;
+}
+.btn-read {
+	margin-bottom: 30px;
+}
+.single-slider{
+    background-size: cover;
+    background-position: center;
+}
+
+}
+@media(max-width:767px){
+    .single-features{
+        border-bottom: 1px groove #ddd;
+    }
+    .theme-bg .col-lg-4:last-child .single-features{
+        border-bottom: 0;
+    }
+    .features-area{
+        margin: 0;
+        box-shadow: none;
+        
+      }
+      .slider-inner h2 {
+        font-size: 30px;
+      }
+      .main-menu ul li {
+        display: inline-block;
+        margin-left: 5px;
+        display: none;
+    }
+
+}
+@media only screen and(min-width:576px) and (max-width:767px){
+    
+}

@@ -27,7 +27,12 @@
 	margin-bottom: 35px;
 }
 .subscribe-form input {
-	width: 24%;
+
+    width: 22%;
+
+}
+.features-area{
+    margin-top: -100px;
 }
 .team-area .col-md-6 {
 	margin-bottom: 37px;
@@ -64,8 +69,51 @@
         margin-left: 5px;
         display: none;
     }
+    .pricing-item {
+        width: 100%;
+    }
+    .subscribe-area {
+        background-image: linear-gradient(to right, rgba(80, 91, 253, 0.747),rgba(80, 91, 253, 0.897));
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+    .btn-read{
+        margin-bottom: 43px;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    .title-area p {
+        margin-bottom: 35px;
+    }
+    .subscribe-form{
+        position: relative;
+    }
+    
+    .subscribe-form input{
+        width: 30%;
+    }
+    .btn-subscribe {
+        position: absolute;
+        left: -21px;
+        right: 0;
+        margin: auto;
+        top: 60px;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .team-img{
+        margin-bottom: 20px;
+    }
+    .testomonial-item{
+        padding: 60px 60px;
+    }
+    .footer-menu{
+        text-align: left!important;
+    }
 
 }
-@media only screen and(min-width:576px) and (max-width:767px){
+@media only screen and (min-width:576px) and (max-width:767px){
     
 }
